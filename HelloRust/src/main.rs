@@ -7,6 +7,8 @@
 // Just possible to have 1 function named "main"
 fn main() {
 
-    // println is a macro, not a function
+    // println("Hello, world!");
+    // println is a macro, not a function  --> Use !
     println!("Hello, world!");
+
 }
