@@ -14,7 +14,7 @@ pub fn combinationlock() {
         Unlocked
     }
 
-    let code = String::from("1234");
+    let code = String::from("1234");                // "1234" is a literal string
     println!("code: {}", code);
     let mut state = State::Locked;
     let mut entry = String::new();
@@ -48,11 +48,11 @@ pub fn combinationlock() {
                 println!("FAILED");
                 entry.clear();
                 state = State::Locked;
-                continue;
+                continue;                               // Switch to the next iteration of elements in the loop
             }
             State::Unlocked => {
                 println!("UNLOCKED");
-                return;
+                return;                                 // Return value of the function, then leaving the function
             }
         }
     }

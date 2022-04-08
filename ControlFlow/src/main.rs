@@ -1,4 +1,4 @@
-mod ifconditional;   // Import module in the same directory. TODO: Why do we get a code time error?
+mod ifconditional;   // Import module in the same directory. TODO: Why do we get error in the IDE, but not in compiling time?
 mod forloop;
 mod matchstatement;
 mod whileloop;
