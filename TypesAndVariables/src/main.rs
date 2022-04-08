@@ -14,7 +14,7 @@ use std::mem;
 // 1) const
 const MEANING_OF_LIFE:u8 = 42;
 // 2) static
-static static_immutable:u8 = 2;     // Immutable
+static static_immutable:u8 = 2;     // Immutable. By default all are immutable
 static mut static_mutable:u8 = 2;  // Mutable
 
 fn main() {
