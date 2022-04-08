@@ -5,7 +5,7 @@
 // If you wouldn't add --> We would get warnings in the compiling processes
 // #![allow(non_snake_case)] // Just allowed to put previous to the allowed
 
-mod stackandheap;  // Import module in the same directory. TODO: Why do we get a code time error?
+mod stackandheap;  // Import module in the same directory. TODO: Why do we get a time error in the IDE, but not compiling it?
 use std::mem;
 // Way to import packages to use
 // mem  Package about memory handling
