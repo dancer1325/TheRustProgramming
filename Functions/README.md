@@ -1,5 +1,5 @@
-# Characters and Strings
-* Section 6 of "The Rust Programming Language" course
+# Function
+* Section 7 of "The Rust Programming Language" course
 
 # How to compile?
 * Alternatives
