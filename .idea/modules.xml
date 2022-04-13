@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdvancedTopics/AdvancedTopics.iml" filepath="$PROJECT_DIR$/AdvancedTopics/AdvancedTopics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CharactersAndStrings/CharactersAndStrings.iml" filepath="$PROJECT_DIR$/CharactersAndStrings/CharactersAndStrings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Concurrency/Concurrency.iml" filepath="$PROJECT_DIR$/Concurrency/Concurrency.iml" />
       <module fileurl="file://$PROJECT_DIR$/ControlFlow/ControlFlow.iml" filepath="$PROJECT_DIR$/ControlFlow/ControlFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/DataStructures.iml" filepath="$PROJECT_DIR$/DataStructures/DataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Functions/Functions.iml" filepath="$PROJECT_DIR$/Functions/Functions.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloRust/HelloRust.iml" filepath="$PROJECT_DIR$/HelloRust/HelloRust.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LifeTimeAndMemory/LifeTimeAndMemory.iml" filepath="$PROJECT_DIR$/LifeTimeAndMemory/LifeTimeAndMemory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OddsAndEnds/OddsAndEnds.iml" filepath="$PROJECT_DIR$/OddsAndEnds/OddsAndEnds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OwnCrate/OwnCrate.iml" filepath="$PROJECT_DIR$/OwnCrate/OwnCrate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StandardCollections/StandardCollections.iml" filepath="$PROJECT_DIR$/StandardCollections/StandardCollections.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Temportal.iml" filepath="$PROJECT_DIR$/.idea/Temportal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Traits/Traits.iml" filepath="$PROJECT_DIR$/Traits/Traits.iml" />
       <module fileurl="file://$PROJECT_DIR$/TypesAndVariables/TypesAndVariables.iml" filepath="$PROJECT_DIR$/TypesAndVariables/TypesAndVariables.iml" />
     </modules>
   </component>

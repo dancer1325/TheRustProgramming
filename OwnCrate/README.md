@@ -1,5 +1,5 @@
-# Types and variables
-* Section 2 of "The Rust Programming Language" course
+# Own Crate
+* Part of section 12 of "The Rust Programming Language" course
 
 # How to compile?
 * Alternatives
@@ -21,10 +21,15 @@
     * `cargo run`
         * Compile
             * 'target' folder
+            * Download the dependencies indicated in 'cargo.toml'
         * 'cargo.lock'
         * Execute
 
 # Notes
+* Rust understands each module tree as folder structure
+  * You can create that structure, and it will go to pick each file
+    * Example:
+      * 'english.rs' file created under greetings folder
 * cargo
     * Another tool included into Rust installation
     * Allows
@@ -37,3 +42,18 @@
             * Uses
                 * create an '.exe'
                 * not for a library creation
+    * `cargo build`
+        * Download all the external dependencies from the crates registry
+        * Build all
+    * `cargo test`
+      * Run the tests created
+* `tree`
+  * Check all the tree of files
+  * Specific command of your OS
+    * Valid in
+      * [Ubuntu]
+      * [Mac]
+* `rustdoc NameOfFileWithDocumentation.rs`
+  * It takes the documentation indicated in the file
+  * Create 'doc' folder
+  * 

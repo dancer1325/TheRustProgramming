@@ -1,5 +1,5 @@
-# Types and variables
-* Section 2 of "The Rust Programming Language" course
+# Odds & Ends
+* Section 12 of "The Rust Programming Language" course
 
 # How to compile?
 * Alternatives
@@ -21,6 +21,7 @@
     * `cargo run`
         * Compile
             * 'target' folder
+            * Download the dependencies indicated in 'cargo.toml'
         * 'cargo.lock'
         * Execute
 
@@ -37,3 +38,6 @@
             * Uses
                 * create an '.exe'
                 * not for a library creation
+    * `cargo build`
+      * Download all the external dependencies from the crates registry
+      * Build all

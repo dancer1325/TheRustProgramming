@@ -1,0 +1,12 @@
+[package]
+name = "TheRustProgramming"
+version = "0.1.0"
+edition = "2021"
+authors = ["Alfredo"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+# Use our own create which lives in our local machine
+OwnCrate = { path = "../OwnCrate"}         # No matching package name found

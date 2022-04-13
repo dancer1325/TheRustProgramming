@@ -17,6 +17,9 @@ const MEANING_OF_LIFE:u8 = 42;
 static static_immutable:u8 = 2;     // Immutable. By default all are immutable
 static mut static_mutable:u8 = 2;  // Mutable
 
+// Not possible to declare global variables, not const, not static
+// let x = 3.0;
+
 fn main() {
     // fundamental_data_types();
     // scope_and_shadowing();
@@ -187,7 +190,7 @@ fn operators() {
 
 }
 
-// If you use mutable static --> Necessary to: 1) add unsafe function or 2) Catch it
+// If you use mutable static variables --> Necessary to: 1) add unsafe function or 2) Catch it
 unsafe fn global_variables() {
     println!{"MEANING_OF_LIFE is {}", MEANING_OF_LIFE};
     println!{"z is {}", static_immutable};
